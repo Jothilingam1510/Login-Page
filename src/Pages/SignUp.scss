@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+   background: rgba(214, 228, 239, 1);
+  }
+  .whole{
+    
+     
+    
+    .top{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-top: 30px;
+      img{
+        align-items: center;
+        width: 44px;
+        height: 44px;
+      }
+      p{
+        padding-left: 10px;
+        color: #2F3D4C;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%; /* 32px */
+      }
+    }
+   .main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    .sub-main1{
+      display: flex;
+      justify-content: center;
+      height: 400px;
+      width: 450px;
+      margin-top: 30px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-radius: 16px;
+      background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%, rgba(255, 255, 255, 0.40) 100%);
+      box-shadow: 0px 52px 48px -32px #A3B7C7, 0px 25px 32px -32px #8DB4D3;
+      .images{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+     
+      
+      
+      .email{
+        p{
+          margin-top: 30px;
+          margin-left: -330px;
+          color: #2F3D4C;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 200;
+          line-height: 100%; /* 16px */
+        }
+        .emailtext{
+          margin-left: 10px;
+          margin-top: 10px;
+          width: 370px;
+          display: flex;
+          padding: 12px;
+          align-items: center;
+          gap: 8px;
+          align-self: stretch; 
+          color: #1F2832;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */   
+          border-radius: 8px;
+          border: 1px solid #C6D1DC;
+          background: #FFF;  
+        }
+      }
+      .password{
+        p{
+          margin-top: 20px;
+          margin-left: -300px;
+          color: #2F3D4C;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 200;
+          line-height: 100%; /* 16px */
+        }
+        .emailtext{
+          margin-left: 10px;
+          margin-top: 10px;
+          width: 370px;
+          display: flex;
+          padding: 12px;
+          align-items: center;
+          gap: 8px;
+          align-self: stretch; 
+          color: #1F2832;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */     
+          border-radius: 8px;
+          border: 1px solid #C6D1DC;
+          background: #FFF;
+        }
+      }
+   
+    
+     
+      .bottom{
+      
+          .signUP{
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            margin-left: 80px;
+            margin-top: 20px;
+            padding: 16px;
+            width: 200px;
+            display: flex;
+            padding: 16px;
+            margin-top: 50px;
+            flex: 1 0 0;
+            border: none;
+            border-radius: 8px;
+            background: #2F3D4C;
+            color: white;
+            text-decoration: none;
+           
+          }
+         
+      }
+    }
+  }
+  }
+  
+  }
